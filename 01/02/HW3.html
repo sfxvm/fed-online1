@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hello, it's my third homework</h2>
+    <br>
+    <h3>Робота з таблицями:</h3>
+    <br>
+    <table border="4" style="width: 75%;">
+     <thead> 
+          <tr> 
+             <th colspan="2"> 
+                 Автор книги /
+                 Назва книги
+             </th>
+             <th> 
+                 Рейтинг
+             </th>
+          </tr>
+     </thead>
+     <tbody>
+          <tr> 
+             <td>Агата Крісті</td>
+             <td>Трагедія в трьох діях</td>
+             <td>91/100</td>
+          </tr>
+          <tr> 
+             <td>Джейн Остін</td>
+             <td>Емма</td>
+             <td>85/100</td>
+          </tr>
+          <tr>
+             <td>Джоан Роулінг</td>
+             <td>Різдвяна свинка</td>
+             <td>93/100</td>
+          </tr>
+          <tr> 
+             <td>Акутагава Рюноске</td>
+             <td>Расьомон</td>
+             <td>85/100</td>
+          </tr>
+     </tbody>
+    </table>
+    <br>
+    <h3>Робота зі списками:</h3>
+    <li> 
+        Канцелярія:
+           <ol>
+             <li>Ручки</li>
+             <li>Олівці</li>
+             <li>Стругачка</li>
+           </ol>
+    </li>
+    <li>
+        Рюкзак 
+    </li>
+    <li>
+        Одяг
+    </li>
+    <br>
+    <h3>Робота з інпутами:</h3>
+    
+    <br>
+    <h4>Submit</h4>
+    <form action="">
+        <label for="name">Name:</label><br>
+        <input type="text" id="fname" name="fname" value="Tom"><br>
+        <label for="sname">Second name:</label><br>
+        <input type="text" id="sname" name="sname" value="Ford"><br><br>
+        <input type="submit" value="Submit">
+     </form> 
+<br>
+<h4>Reset</h4>
+<form action="">
+    <label for="day">Day:</label><br>
+    <input type="text" id="day" name="day" value="13"><br>
+    <label for="month">Month:</label><br>
+    <input type="text" id="month" name="month" value="October"><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form> 
+  <br>
+  <h4>Button</h4>
+  <input type="button" onclick="alert('Have a nice day')" value="Click Me, please!">
+  <br>
+<h4>Color</h4>
+<form action="">
+    <label for="favcolor">Оберіть ваш улюблений колір:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#B5EBC7">
+    <input type="submit" value="Далі">
+  </form>
+  <br>
+  <h4>Date</h4>
+  <form action="">
+    <label for="today">Today is:</label>
+    <input type="date" id="todayy" name="today">
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <h4>Datetime-local</h4>
+  <form action="">
+    <label for="timeofbrth">Дата народження (дата і час):</label>
+    <input type="datetime-local" id="timeofbrth" name="timeofbrth">
+    <input type="submit" value="Продовжити">
+  </form>
+  <br>
+  <h4>Email</h4>
+  <form action="">
+    <label for="email">Введіть свою електронну пошту:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Далі">
+  </form>
+<br>
+<h4>Image</h4>
+<form action="">
+    <label for="fname">Ім'я: </label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Прізвище: </label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="image" src="https://cdn-icons-png.flaticon.com/512/2717/2717382.png" alt="Submit" width="64" height="64">
+  </form>
+<br>
+<h4>File</h4>
+<form action="">
+    <label for="file">Оберіть файл:</label>
+    <input type="file" id="file" name="file"><br>
+    <input type="submit" value="Повроджити">
+  </form>
+  <br>
+  <h4>Hidden</h4>
+  <form action="">
+    <label for="name">Ім'я:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <input type="hidden" id="custId" name="custId" value="3487">
+    <input type="submit" value="Повроджити">
+    <br>
+    <h4>Number</h4>
+    <form action="">
+        <label for="quantity">Оберіть номер(від 1 до 9):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="9">
+        <input type="submit" value="Повроджити">
+      </form>
+      <br>
+      <br>
+  </form>
+</body>
+</html>
