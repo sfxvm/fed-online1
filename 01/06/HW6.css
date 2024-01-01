@@ -15,9 +15,13 @@ button{
     border: none;
     background-color: #FFF;
 }
-h1{
+.heading{
     margin-left: 2px;
     color: #000;
+    font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 .menu-items{
  padding: 0px 4px;
@@ -35,6 +39,10 @@ background: #EFEFEF;
 .position-title{
     color: #C4C4C4;
     text-align: center;
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .menu-position{
     display: inline-block;
@@ -52,6 +60,10 @@ height: 44px;
 background-color: #EEFFEF;
 border: none;
 border-radius: 12px;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .placeholder{
     margin-left: 15px;
@@ -63,6 +75,10 @@ border-radius: 12px;
 .second-title{
     margin-left: 4px;
     color: #003049;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .second-menu-items{
     padding: 0px 4px;
@@ -80,6 +96,10 @@ box-shadow: 0px 0px 4px 0px #E5E5E5;
     margin-left: 15px;
     margin-bottom: 47px;
     color: #003049;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .picture{
     
@@ -87,7 +107,14 @@ box-shadow: 0px 0px 4px 0px #E5E5E5;
 .second-titles{
  display: inline;
  color: #D62828;
+ font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .second-menu-position:hover .second-position-img{
    background-color: #EEFFEF; 
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
