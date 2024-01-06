@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+body{
+    background-color: rgba(0, 161, 198, 0.05);
+    width: 1920px;
+    height: 960px;
+    border: 2px solid black;
+}
+.container{
+    margin: 142px 330px 128px 350px;
+}
+.heading-one{
+    display: inline;
+    color: #2D3640;
+    font-size: 48px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: -0.5px;
+}
+.heading-two{
+    display: inline;
+    color: #2D3640;
+    font-size: 48px;
+    font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: -0.5px;
+}
+.text{
+    color: #2B292D;
+    width: 695px;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;  
+    margin: 10px;
+}
+.float-card1{
+    width: 295px;
+    height: 470px;
+    float: left;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: #EAEDF2;
+    filter: drop-shadow(0px 0px 10px rgba(45, 54, 64, 0.05));
+border-radius: 20px;
+position: absolute;
+top: 462px;
+}
+.developer-photo{
+    margin: 58.86px 90.86px 296.86px 89.86px;
+    border-radius: 114px;
+    overflow: hidden;
+}
+.name{
+    color: #2D3640;
+text-align: center;
+font-family: Catamaran;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.625px;
+margin-top: -260.14px;
+}
+.features{
+    color: #4B4F52;
+text-align: center;
+font-family: Catamaran;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: -105.86px;
+}
+.icon1{
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 40px;
+background-color: #41B883;
+margin-top: -66px;
+}
+.icon-img1{
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.float-card2{
+    width: 295px;
+    height: 470px;
+    float: left;
+    background-color: #FFF;
+    margin-left: 315px;
+    position: absolute;
+    top: 462px;
+    stroke: #EAEDF2;
+    filter: drop-shadow(0px 0px 10px rgba(45, 54, 64, 0.05));
+border-radius: 20px;
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #202124;
+    margin-top: -66px;
+}
+.icon-img2{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.icon-left{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #34474F;
+    margin-left: 55px;
+margin-top: -150px;
+}
+.logo-left{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icon-right{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #61DAFB;
+    margin-left: 190px;
+    margin-top: -150px;
+}
+.logo4{
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.float-card3{
+    width: 295px;
+    height: 470px;
+    float: left;
+    background-color: #FFF;
+    margin-left: 630px;
+    position: absolute;
+    top: 462px;
+    stroke: #EAEDF2;
+    filter: drop-shadow(0px 0px 10px rgba(45, 54, 64, 0.05));
+border-radius: 20px;
+}
+.icon5{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #0AA9D7;
+    margin-left: 158px;
+    margin-top: -66px;  
+}
+.last-icon{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #D63033;
+margin-top: -150px; 
+margin-left: 89px;
+}
+.icon7{
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.float-card4{
+    width: 295px;
+    height: 470px;
+    float: left;
+    background-color: #FFF;
+    margin-left: 945px;
+    position: absolute;
+    top: 462px;
+    stroke: #EAEDF2;
+    filter: drop-shadow(0px 0px 10px rgba(45, 54, 64, 0.05));
+border-radius: 20px;
+}
+.icon8{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #1073BB;
+    margin-left: 158px;
+    margin-top: -66px;  
+}
+.last-icon2{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background-color: #E44E25;
+margin-top: -150px; 
+margin-left: 89px;
+}
+.html{
+    margin-top: 10px;
+    margin-left: -55px;
+}
+.css-icon{
+    margin-top: 10px; 
+margin-left: 85px;
+}

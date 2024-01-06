@@ -22,7 +22,7 @@ body{
     height: 60px;
     border-radius: 6px;
 background-color: linear-gradient(180deg, #2137FC 0%, #2137FB 50.01%, #FFD84B 50.04%, #FFD84B 100%);
-z-index: 6;
+z-index: 30;
 position: absolute;
 top: 543px;
 left: 466px;
