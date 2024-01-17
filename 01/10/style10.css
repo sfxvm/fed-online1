@@ -169,15 +169,12 @@ position: relative;
 }
 .video button{
     width: 85px;
-height: 85px;
-flex-shrink: 0;
-display: flex;
-    align-items: center;
+    height: 85px;
     border: none;
     background-color: #3F9AB7;
     border-radius: 100%;
     margin-right: 20px;
-    align-items: center;
+    text-align: center;
 }
 .video span{
     color: #000;
@@ -202,6 +199,7 @@ letter-spacing: 1px;
     text-align: center;
     right: -16px;
     margin-bottom: 8px;
+    flex-direction: column;
 }
 .social-link-img-hover{
     display: none;
