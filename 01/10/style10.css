@@ -198,20 +198,29 @@ letter-spacing: 1px;
     position: relative;
     text-align: center;
     right: -16px;
-    margin-bottom: 8px;
+    margin-top: 20px;
     flex-direction: column;
+    
+}
+.social-link-img{
+    padding: 10px;
+    
 }
 .social-link-img-hover{
     display: none;
+    
 }
 .social-link a:hover{
 background-color: #F2994A;
+padding: 10px;
+    border-radius: 100%;
 }
 .social-link a:hover .social-link-img-hover{
     display: block;
 }
 .social-link a:hover .social-link-img{
     display: none;
+    
 }
 .client{
     background-color: #3F9AB7;
