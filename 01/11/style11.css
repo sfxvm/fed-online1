@@ -8,6 +8,18 @@ body{
     background-position: bottom;
     background-repeat: no-repeat;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    display: flex;
+    flex-direction: row;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+}
 .bg-img{
     width: 1728px;
     height: auto;
@@ -29,12 +41,10 @@ header{
 }
 .logo{
     display: inline-block;
-    padding-top: 23px;
+    margin-left: 20px;
 }
 .friday{
     display: inline-block;
-    margin-left: 42px;
-    
     
 }
 .logo::after{
@@ -44,10 +54,9 @@ header{
     width: 3px;
     height: 28px;
     display: flex;
-    flex-direction: row;
     position: absolute;
-    top: 95px;
-    left: 252px;
+    top: 80px;
+left: 280px;
 }
 .search-block{
     display: flex;
@@ -55,20 +64,18 @@ header{
     justify-content: right;
     border: 0;
 }
-.search-block button{
+.search-block>button{
     background-color: transparent;
     border: 0;
-    padding-right: 152px;
-    margin-top: -100px;
+    padding-right: 100px;
+    margin-top: -30px;
 }
 .user-photo{
     display: flex;
     text-align: right;
     justify-content: right;
     border-radius: 100%;
-    border: 0;
-    bottom: 100px;
-    right: 40px;
+    margin-right: 200px;
 }
 .text-container{
     margin-left: 80px;
@@ -161,6 +168,11 @@ margin: 0%;
 }
 .buttons{
     margin-top: 55px;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .first{
     width: 272px;
