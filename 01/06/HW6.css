@@ -73,7 +73,7 @@ line-height: normal;
     margin-top: 17px;
 }
 .second-title{
-    margin-left: 4px;
+    
     color: #003049;
     font-size: 20px;
     font-style: normal;
@@ -82,7 +82,7 @@ line-height: normal;
     margin: 0;
 }
 .second-menu-items{
-    padding: 0px 4px;
+    padding: 0px 0px;
 margin-top: 15px;
 }
 .second-position-img{
@@ -93,27 +93,26 @@ background: #FFF;
 box-shadow: 0px 0px 4px 0px #E5E5E5;
 }
 .second-position-title{
-    
-    margin-left: 15px;
-    margin-bottom: 47px;
     color: #003049;
     font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding-bottom: 50px;
+margin: 0px;
+
 }
-.picture{
-    margin-bottom: 70px;
-}
+
 .second-titles{
- margin-bottom: 100px;
+ margin: 0px;
  color: #D62828;
  font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 
+}
+.burger-img{
+    margin: 0%;
 }
 .second-menu-position:hover .second-position-img{
    background-color: #EEFFEF; 
@@ -127,5 +126,7 @@ body{
 }
 .info-title{
     display: inline-block;
-    
+    vertical-align: top;
+    padding-top: 20px;
+    padding-left: 10px;
 }
