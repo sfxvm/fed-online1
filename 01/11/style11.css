@@ -22,9 +22,7 @@ body{
 }
 .bg-img{
     width: 1728px;
-    height: auto;
-    flex-shrink: 0;
-    
+    margin: 0 auto;
 }
 .fa-star{
     font-size: 32px;
@@ -67,15 +65,12 @@ left: 280px;
 .search-block>button{
     background-color: transparent;
     border: 0;
-    padding-right: 100px;
-    margin-top: -30px;
 }
 .user-photo{
     display: flex;
     text-align: right;
     justify-content: right;
     border-radius: 100%;
-    margin-right: 200px;
 }
 .text-container{
     margin-left: 80px;
