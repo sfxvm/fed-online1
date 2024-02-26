@@ -3,9 +3,7 @@
 
 }
 body{
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    width: 1512px;
 }
 .women{
     background-image: url(../12/img/Rectangle\ 10.png);
@@ -91,6 +89,8 @@ display: inline;
 .search-block>button{
     background-color: #FFF;
     border: 0;
+    display: flex;
+    flex-direction: row;
 }
 .search-block{
     display: flex;
@@ -98,17 +98,24 @@ display: inline;
     justify-content: right;
     position: relative;
 }
-.right-sneaker{
-    text-align: right;
-    justify-content: right;
-    margin-left: 330px;
-    margin-bottom: 150px;
-    display: inline;
+.row>button{
+    background-color: #000;
+    width: 163px;
+    height: 46px;
+    text-align: center;
 }
-.left-sneaker{
- align-items: center;
- display: inline;
- 
+.row>button>p{
+    color: #FFF;
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 800; 
+justify-content: center;
+align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
 .text-block>h1{
     color: #000;
@@ -259,4 +266,18 @@ border: none;
 .social-information{
 display: inline-block;
 margin-left: 330px;
+}
+.main>button{
+ background-color: #000;
+ width: 195px;
+ height: 50px;
+ border-radius: 20px;
+}
+.main>button>P{
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+text-align: center;
+color: #FFF;
 }
